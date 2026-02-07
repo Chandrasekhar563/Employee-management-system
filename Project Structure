@@ -1,0 +1,23 @@
+employee-management-system/
+ ┣ src/main/java/com/example/ems/
+ ┃ ┣ config/
+ ┃ ┃ ┗ SecurityConfig.java
+ ┃ ┣ controller/
+ ┃ ┃ ┗ EmployeeController.java
+ ┃ ┣ model/
+ ┃ ┃ ┣ Employee.java
+ ┃ ┃ ┗ User.java
+ ┃ ┣ repository/
+ ┃ ┃ ┣ EmployeeRepository.java
+ ┃ ┃ ┗ UserRepository.java
+ ┃ ┣ service/
+ ┃ ┃ ┣ EmployeeService.java
+ ┃ ┃ ┗ CustomUserDetailsService.java
+ ┃ ┗ EmployeeManagementApplication.java
+ ┣ src/main/resources/
+ ┃ ┣ templates/
+ ┃ ┃ ┣ employees.html
+ ┃ ┃ ┣ add-employee.html
+ ┃ ┃ ┗ login.html
+ ┃ ┗ application.properties
+ ┗ pom.xml
